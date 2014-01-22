@@ -1,6 +1,6 @@
 # SimilarStrings
 
-TODO: Write a gem description
+Computes similarity score between 2 strings based on Sørensen–Dice coefficient (http://en.wikipedia.org/wiki/Dice's_coefficient)
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+`score = SimilarStrings.score(str1, str2)`
+
+Score ranges from 0 to 1.0 with 1.0 being closely matched.
 
 ## Contributing
 
